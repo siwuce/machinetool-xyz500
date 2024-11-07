@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="介绍一款高性能的数控机床">
+    <title>机床介绍</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+        section {
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        p {
+            line-height: 1.6;
+            color: #555;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+        }
+        .specs {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .spec {
+            width: 48%;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>高性能数控机床介绍</h1>
+</header>
+
+<section>
+    <h1>数控机床型号 XYZ-500</h1>
+    <p>
+        XYZ-500型数控机床是一款高性能、高精度的工业机床，专为现代化加工厂设计。该机床采用最新的伺服电机控制系统，能够精确加工复杂零件，适用于金属、塑料及复合材料的精密加工。
+    </p>
+
+    <img src="machinetool.jpg" alt="XYZ-500 数控机床">
+
+    <h2>产品特点</h2>
+    <p>
+        这款机床具有强大的多轴联动功能，能够高效完成各种复杂工件的加工。它配备了自动刀具更换系统，减少加工停机时间，并保证了高效的工作流程。
+    </p>
+
+    <div class="specs">
+        <div class="spec">
+            <h3>技术参数</h3>
+            <ul>
+                <li>主轴转速：20,000 RPM</li>
+                <li>加工精度：±0.005mm</li>
+                <li>工作台尺寸：800mm x 500mm</li>
+                <li>最大负载：600kg</li>
+                <li>控制系统：Fanuc 31i</li>
+            </ul>
+        </div>
+
+        <div class="spec">
+            <h3>应用领域</h3>
+            <ul>
+                <li>航空航天</li>
+                <li>汽车制造</li>
+                <li>电子产品</li>
+                <li>模具加工</li>
+                <li>医疗设备</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2024 机械设备有限公司. 保留所有权利.</p>
+</footer>
+
+</body>
+</html>
